@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<p> User details are ::</p>
+
+<h3>Name : <%= user.uname %></h3>
+<h3>Email : <%= user.email %></h3>
+<h3>Phone no  : <%= user.phone %></h3>
+<h3>Company : <%= user.cname %></h3>
+
+<form method="post" action="/user/generator">
+
+	<input type="email" placeholder="Email ID" name="email" required />
+
+    <input type="text" placeholder="Data of Employee" name="data" required />
+
+    <br>
+	<button> Generate something </button>
+</form>
+
+
+</body>
+</html>
